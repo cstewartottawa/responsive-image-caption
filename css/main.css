@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+  font-family: "Denk One", sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.content {
+  position: absolute;
+  bottom:0;
+  left: 50%;
+  transform: translateX(-50%);
+  width:100%;
+  max-width: 45em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: bolder;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: inline;
+  line-height: 1.4;
+  margin:0;
+}
+
+p {
+  font-size: 2rem;
+  font-style: italic;
+  margin: .6em 0;
+}
+
+.banner {
+  max-height: 500px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
